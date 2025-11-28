@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="be817152c33b443a92ce68a31093b251" Name="Diagram1">
+        <EntityTypeShape EntityType="Glumov0202Model.Material" Width="1.5" PointX="3" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Glumov0202Model.Material_type" Width="1.5" PointX="0.75" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="Glumov0202Model.Materials_in_products" Width="1.5" PointX="5.25" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Glumov0202Model.Partner_products_request" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Glumov0202Model.Partner_type" Width="1.5" PointX="0.75" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Glumov0202Model.Partners" Width="1.5" PointX="3" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Glumov0202Model.Product_type" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="Glumov0202Model.Products" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Glumov0202Model.sysdiagrams" Width="1.5" PointX="5.75" PointY="7.125" IsExpanded="true" />
+        <AssociationConnector Association="Glumov0202Model.FK_Material_Material_type" ManuallyRouted="false" />
+        <AssociationConnector Association="Glumov0202Model.FK_Materials_in_products_Material" ManuallyRouted="false" />
+        <AssociationConnector Association="Glumov0202Model.FK_Materials_in_products_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="Glumov0202Model.FK_Partner_products_request_Partners" ManuallyRouted="false" />
+        <AssociationConnector Association="Glumov0202Model.FK_Partner_products_request_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="Glumov0202Model.FK_Partners_Partner_type" ManuallyRouted="false" />
+        <AssociationConnector Association="Glumov0202Model.FK_Products_Product_type" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
